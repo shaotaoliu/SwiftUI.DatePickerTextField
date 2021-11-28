@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A5C88EA275408BD005C67D2 /* DateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5C88E9275408BD005C67D2 /* DateField.swift */; };
+		4A5C88EC27540B9A005C67D2 /* CalendarSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5C88EB27540B9A005C67D2 /* CalendarSheet.swift */; };
+		4A5C88EE27541FC4005C67D2 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5C88ED27541FC4005C67D2 /* Globals.swift */; };
 		4AF4F0622749A54200557E3D /* DatePickerTextFieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF4F0612749A54200557E3D /* DatePickerTextFieldApp.swift */; };
 		4AF4F0642749A54200557E3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF4F0632749A54200557E3D /* ContentView.swift */; };
 		4AF4F0662749A54600557E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF4F0652749A54600557E3D /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A5C88E9275408BD005C67D2 /* DateField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateField.swift; sourceTree = "<group>"; };
+		4A5C88EB27540B9A005C67D2 /* CalendarSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarSheet.swift; sourceTree = "<group>"; };
+		4A5C88ED27541FC4005C67D2 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		4AF4F05E2749A54200557E3D /* DatePickerTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePickerTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF4F0612749A54200557E3D /* DatePickerTextFieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerTextFieldApp.swift; sourceTree = "<group>"; };
 		4AF4F0632749A54200557E3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +62,9 @@
 				4AF4F0612749A54200557E3D /* DatePickerTextFieldApp.swift */,
 				4AF4F06F2749A56700557E3D /* DatePickerTextField.swift */,
 				4AF4F0632749A54200557E3D /* ContentView.swift */,
+				4A5C88E9275408BD005C67D2 /* DateField.swift */,
+				4A5C88EB27540B9A005C67D2 /* CalendarSheet.swift */,
+				4A5C88ED27541FC4005C67D2 /* Globals.swift */,
 				4AF4F0652749A54600557E3D /* Assets.xcassets */,
 				4AF4F0672749A54600557E3D /* Preview Content */,
 			);
@@ -140,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A5C88EA275408BD005C67D2 /* DateField.swift in Sources */,
 				4AF4F0642749A54200557E3D /* ContentView.swift in Sources */,
+				4A5C88EE27541FC4005C67D2 /* Globals.swift in Sources */,
 				4AF4F0622749A54200557E3D /* DatePickerTextFieldApp.swift in Sources */,
 				4AF4F0702749A56700557E3D /* DatePickerTextField.swift in Sources */,
+				4A5C88EC27540B9A005C67D2 /* CalendarSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
